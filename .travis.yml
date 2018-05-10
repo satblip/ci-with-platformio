@@ -11,5 +11,4 @@ env:
 install:
     - pip install -U platformio
 script:
-    - pio run -e native
     - pio test -e native
